@@ -1,0 +1,7 @@
+app:
+    resource: "@AppBundle/Controller/DefaultController.php"
+    type: annotation
+
+api_televisions:
+    type: rest
+    resource: "@AppBundle/Controller/TelevisionController.php"
